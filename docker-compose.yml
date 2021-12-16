@@ -11,10 +11,10 @@ services:
       - .:/var/www/html
     environment:
       APP_DEBUG: 'true'
-      APP_NAME: 'F+L Laravel Boilerplate'
-      APP_ENV: 'local'
+      #APP_NAME: 'F+L Laravel Boilerplate'
+      #APP_ENV: 'local'
       #APP_KEY: ''
-      APP_URL: 'http://210.101.1.1'
+      #APP_URL: 'http://210.101.1.1'
     networks:
       laravel-api-network:
         ipv4_address: 210.101.1.1
