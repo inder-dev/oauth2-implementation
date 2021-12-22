@@ -1,5 +1,7 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test_error', function () {
-    \Log::debug('Test debug message');
-    return "Hi ";
-    
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
