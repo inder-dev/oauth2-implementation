@@ -1,6 +1,7 @@
 ## About Project
 
-This is the space where you can add the description of your project, once you have cloned the boilerplate and you have replaced the project path from fl-laravel_boilerplate to your project name.
+This is a test demo project for implementing oAuth2 with Laravel Passport. The steps followed are detailed in this doc:
+https://docs.google.com/document/d/1hzjsL38v1wQRZZU9mjRUAXEeK12p3S3q53vj9P-Ytcw/edit#heading=h.b6bi59kkyd4o
 
 ## Technologies
 
